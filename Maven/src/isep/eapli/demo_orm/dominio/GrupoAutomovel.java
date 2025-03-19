@@ -15,4 +15,9 @@ public class GrupoAutomovel {
     public int getNumeroPortas() {
         return this.numeroPortas;
     }
+
+    @Override
+    public String toString() {
+        return "GrupoAutomovel { numeroPortas = " + numeroPortas + " }";
+    }
 }
